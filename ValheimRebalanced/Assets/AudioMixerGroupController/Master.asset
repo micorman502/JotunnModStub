@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &24300000
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000, guid: 59de5bce2412d5d49af32308fb06d7cd, type: 2}
+  m_GroupID: d3e9bc2c83d834a4c84b02c1e1121564
+  m_Children:
+  - {fileID: 24300000, guid: 721381edc2d481a43ba32699fad9ee78, type: 2}
+  - {fileID: 24300000, guid: abb45b344a65b0740ab2569613c2a119, type: 2}
+  - {fileID: 24300000, guid: c7af6d5f50467c244b2482b3d4b3ff93, type: 2}
+  - {fileID: 24300000, guid: 835eb378477594045a038a9bbd4e7fcc, type: 2}
+  m_Volume: 00000000000000000000000000000000
+  m_Pitch: 00000000000000000000000000000000
+  m_Send: 00000000000000000000000000000000
+  m_Effects: []
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
