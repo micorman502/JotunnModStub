@@ -25,14 +25,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142462546252008}
-  m_LocalRotation: {x: -0.49205276, y: 0.48449916, z: 0.4120785, w: -0.5944207}
+  m_LocalRotation: {x: 0.6378083, y: -0.76453054, z: 0.0715963, w: 0.05972909}
   m_LocalPosition: {x: -0.034, y: -0.095, z: -0.112}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children:
   - {fileID: 4611998362288827}
   m_Father: {fileID: 4799530079038589}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 87.307434, y: 9.814793, z: 78.82891}
+  m_LocalEulerAnglesHint: {x: 169.3, y: 0, z: 100.327}
 --- !u!33 &33807988060339324
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142462546252008}
-  m_Mesh: {fileID: 4300000, guid: 7093440998e2de9478c97551f7c31211, type: 2}
+  m_Mesh: {fileID: 5425077266626566496, guid: 741948b9d2d9bac4ca3ea0be47383189, type: 3}
 --- !u!23 &23686288844249296
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -188,18 +188,18 @@ MonoBehaviour:
     m_quality: 1
     m_variant: 0
     m_shared:
-      m_name: $item_bilebomb
+      m_name: $item_resinbomb
       m_dlc: 
       m_itemType: 3
       m_icons:
-      - {fileID: 21300000, guid: 0babd4565afbb554d9a8b0b7d81783cc, type: 2}
+      - {fileID: 21300000, guid: 1f8869e4db06fa94d96c85ffd9ef6e73, type: 3}
       m_attachOverride: 19
-      m_description: $item_bilebomb_description
+      m_description: $item_resinbomb_description
       m_maxStackSize: 50
       m_autoStack: 1
       m_maxQuality: 1
       m_scaleByQuality: 0
-      m_weight: 0.3
+      m_weight: 0.2
       m_scaleWeightByQuality: 0
       m_value: 0
       m_teleportable: 1
@@ -213,7 +213,7 @@ MonoBehaviour:
       m_setSize: 0
       m_setStatusEffect: {fileID: 0}
       m_equipStatusEffect: {fileID: 0}
-      m_movementModifier: 0
+      m_movementModifier: -0.1
       m_eitrRegenModifier: 0
       m_food: 0
       m_foodStamina: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
         m_loopingAttack: 0
         m_consumeItem: 1
         m_hitTerrain: 1
-        m_attackStamina: 8
+        m_attackStamina: 16
         m_attackEitr: 0
         m_attackHealth: 0
         m_attackHealthPercentage: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
         m_loopingAttack: 0
         m_consumeItem: 0
         m_hitTerrain: 1
-        m_attackStamina: 20
+        m_attackStamina: 15
         m_attackEitr: 0
         m_attackHealth: 0
         m_attackHealthPercentage: 0
@@ -2846,7 +2846,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672314789501548}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.39601123, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3960112}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 4696944909010185}

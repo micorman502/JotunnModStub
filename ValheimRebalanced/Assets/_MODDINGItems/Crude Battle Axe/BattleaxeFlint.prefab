@@ -132,7 +132,7 @@ MonoBehaviour:
   m_autoDestroy: 1
   m_itemData:
     m_stack: 1
-    m_durability: 100
+    m_durability: 150
     m_quality: 1
     m_variant: 0
     m_shared:
@@ -140,7 +140,7 @@ MonoBehaviour:
       m_dlc: 
       m_itemType: 14
       m_icons:
-      - {fileID: 21300000, guid: c34c964d7fe2b7e499d69a68c42bdd34, type: 2}
+      - {fileID: 21300000, guid: 5df3a6ef0e1ab094bae0c0a4f055b12c, type: 3}
       m_attachOverride: 0
       m_description: $item_battleaxe_flint_description
       m_maxStackSize: 1
@@ -174,9 +174,9 @@ MonoBehaviour:
       m_armor: 15
       m_armorPerLevel: 1
       m_damageModifiers: []
-      m_blockPower: 6
-      m_blockPowerPerLevel: 0
-      m_deflectionForce: 70
+      m_blockPower: 8
+      m_blockPowerPerLevel: 2
+      m_deflectionForce: 35
       m_deflectionForcePerLevel: 5
       m_timedBlockBonus: 2
       m_animationState: 8
@@ -187,7 +187,7 @@ MonoBehaviour:
         m_blunt: 0
         m_slash: 32
         m_pierce: 0
-        m_chop: 40
+        m_chop: 30
         m_pickaxe: 0
         m_fire: 0
         m_frost: 0
@@ -197,9 +197,9 @@ MonoBehaviour:
       m_damagesPerLevel:
         m_damage: 0
         m_blunt: 0
-        m_slash: 3
+        m_slash: 75
         m_pierce: 0
-        m_chop: 2
+        m_chop: 3
         m_pickaxe: 0
         m_fire: 0
         m_frost: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
         m_loopingAttack: 0
         m_consumeItem: 0
         m_hitTerrain: 1
-        m_attackStamina: 16
+        m_attackStamina: 12
         m_attackEitr: 0
         m_attackHealth: 0
         m_attackHealthPercentage: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
         m_loopingAttack: 0
         m_consumeItem: 0
         m_hitTerrain: 1
-        m_attackStamina: 8
+        m_attackStamina: 6
         m_attackEitr: 0
         m_attackHealth: 0
         m_attackHealthPercentage: 0
@@ -372,7 +372,7 @@ MonoBehaviour:
       m_useDurability: 1
       m_destroyBroken: 0
       m_canBeReparied: 1
-      m_maxDurability: 200
+      m_maxDurability: 150
       m_durabilityPerLevel: 50
       m_useDurabilityDrain: 1
       m_durabilityDrain: 0
@@ -2977,4 +2977,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.2214127, y: 5.145114, z: 0.2909594}
-  m_Center: {x: -0.40505195, y: 1.6645191, z: -0.0000004147763}
+  m_Center: {x: -0.40505195, y: 1.6645191, z: 0}
